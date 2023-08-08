@@ -3,10 +3,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
 import java.time.Instant;
-
+import jakarta.persistence.*;
 @Entity
 @Table(name = "TRANSACTION_DETAILS")
 @Data
